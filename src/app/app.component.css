@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #D1B3FF;
+}
+
+
+.hero {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  
+  color: #660099; /* Color de la paleta */
+}
+
+
+.container {
+  display: flex;          
+  gap: 20px;
+}
+
+.bye {
+  margin-top: 30px;
+  text-align: center;
+}

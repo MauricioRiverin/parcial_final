@@ -1,0 +1,26 @@
+.links {
+  padding: 20px;
+  background-color: #660099; 
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.links ul li a:hover {
+  color: #D1B3FF; 
+  transform: scale(1.05);
+}

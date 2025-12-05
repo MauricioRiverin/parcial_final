@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background-color: #D1B3FF; /* Color de tu paleta */
+  border-bottom: 3px solid #9933FF;
+}
+
+.logo>img {
+  width: 90px;
+  height: 90px;
+  border-radius: 70%; 
+  object-fit: cover; 
+}
+
+.busqueda {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.busqueda input {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 2px solid #9933FF;
+  border-radius: 5px;
+  width: 220px;
+}
+
+.busqueda button {
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #9933FF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s;
+}
+
+.busqueda button:hover {
+  background-color: #660099;
+}
