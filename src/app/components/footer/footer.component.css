@@ -2,19 +2,18 @@ footer {
   background-color: #660099;
   color: #fff;
   display: flex;
-  justify-content: space-around; /* izquierda y derecha */
-  align-items: center; /* centra verticalmente las columnas */
-  padding: 20px 40px; /* más espacio lateral para centrar */
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 40px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   flex-wrap: wrap;
 }
 
-/* Columna izquierda: párrafos apilados */
 .izquierda {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centra verticalmente los párrafos */
+  justify-content: center;
 }
 
 .izquierda>p {
@@ -22,7 +21,6 @@ footer {
   font-weight: bold;
 }
 
-/* Columna derecha: enlaces en fila */
 .derecha {
   display: flex;
   align-items: center;
